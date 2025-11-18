@@ -11,4 +11,8 @@
     <PackageReference Include="Avalonia" Version="11.3.8" />
   </ItemGroup>
 
+  <ItemGroup>
+	<ProjectReference Include="..\UABEA\UABEAvalonia\UABEAvalonia.csproj" />
+  </ItemGroup>
+
 </Project>
