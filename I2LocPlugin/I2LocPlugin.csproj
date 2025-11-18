@@ -7,16 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AssetsTools.NET" Version="3.0.2" />
     <PackageReference Include="Avalonia" Version="11.3.8" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="AssetsTools.NET">
-      <HintPath>..\..\..\Github\UABEA\Libs\AssetsTools.NET.dll</HintPath>
-    </Reference>
-    <Reference Include="UABEAvalonia">
-      <HintPath>..\..\..\..\Modding\Unity Tools\uabea-windows\UABEAvalonia.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>
